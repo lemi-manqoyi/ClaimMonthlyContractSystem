@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/58zoz7252PKpTJzWWZhfpqoqi1H9IJBpKG1zU8NK94=",
+  "Hash": "/TrIuU75OhDbyAOvTtyc0/09+dpCoMojm7vPdLuKTBM=",
   "Source": "ContractMonthlyClaimSystem",
   "BasePath": "_content/ContractMonthlyClaimSystem",
   "Mode": "Default",
@@ -1212,6 +1212,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\wwwroot\\Uploads\\add_farmer.png",
+      "SourceId": "ContractMonthlyClaimSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\wwwroot\\",
+      "BasePath": "_content/ContractMonthlyClaimSystem",
+      "RelativePath": "Uploads/add_farmer.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\add_farmer.png"
     }
   ]
 }

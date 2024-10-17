@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\Imgs\\clipboard.png"
     },
     {
+      "Id": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\wwwroot\\Uploads\\add_farmer.png",
+      "PackagePath": "staticwebassets\\Uploads\\add_farmer.png"
+    },
+    {
       "Id": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

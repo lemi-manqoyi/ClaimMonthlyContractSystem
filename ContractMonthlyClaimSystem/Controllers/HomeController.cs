@@ -1,4 +1,5 @@
 using ContractMonthlyClaimSystem.Models;
+using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -29,11 +30,11 @@ namespace ContractMonthlyClaimSystem.Controllers
 
          //http post, to store the file in a folder I created in the webroot
         [HttpPost]
-        public IActionResult Upload(IFormFile file, string uploaderName, string addNotes, int hoursWorked, double hourlyRate)
+        public IActionResult Upload(IFormFile file, string lecturerName, string addNotes, int hoursWorked, double hourlyRate)
         {
             if (file != null && file.Length > 0)
             {
-               var fileName = Path.GetFileName(file.FileName); 
+               var fileName = Path.GetFileName(file.FileName);  
                var path = Path.Combine(_webHostEnvironment.WebRootPath, "Uploads", fileName);
                 using (var stream = new FileStream(path, FileMode.Create))
                 {
@@ -44,7 +45,7 @@ namespace ContractMonthlyClaimSystem.Controllers
                     LecturerID = claims.Count +1,
                     LecturerUploadFileName = fileName,
                     LecturerAdditionalNotes = addNotes,
-                    LecturerName = uploaderName,
+                    LecturerName = lecturerName,
                     LecturerHourlyRate = hourlyRate,
                     LecturerHoursWorked = hoursWorked,
                     LecturerUploadDate = DateTime.Now,
@@ -62,7 +63,16 @@ namespace ContractMonthlyClaimSystem.Controllers
             return File(fileBytes, "application/octet-stream", fileName);
         }
         public IActionResult LecturerSubmitClaim()
-        {
+        { claims.Add(new LecturerModel
+                {
+                    LecturerID = claims.Count +1,
+                    LecturerUploadFileName = fileName,
+                    LecturerAdditionalNotes = addNotes,
+                    LecturerName = lecturerName,
+                    LecturerHourlyRate = hourlyRate,
+                    LecturerHoursWorked = hoursWorked,
+                    LecturerUploadDate = DateTime.Now,
+                });
             return View(claims);
         }
         

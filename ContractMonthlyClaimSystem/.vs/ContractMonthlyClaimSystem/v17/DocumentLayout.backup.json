@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{75B866A9-49F4-43C1-A6B0-86608E3228BF}|ContractMonthlyClaimSystem.csproj|solutionrelative:views\\home\\lecturermenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{75B866A9-49F4-43C1-A6B0-86608E3228BF}|ContractMonthlyClaimSystem.csproj|c:\\users\\lab_services_student\\desktop\\prog2b\\contractmonthlyclaimsystem\\views\\home\\lecturersubmitclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75B866A9-49F4-43C1-A6B0-86608E3228BF}|ContractMonthlyClaimSystem.csproj|solutionrelative:views\\home\\lecturersubmitclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75B866A9-49F4-43C1-A6B0-86608E3228BF}|ContractMonthlyClaimSystem.csproj|c:\\users\\lab_services_student\\desktop\\prog2b\\contractmonthlyclaimsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75B866A9-49F4-43C1-A6B0-86608E3228BF}|ContractMonthlyClaimSystem.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{75B866A9-49F4-43C1-A6B0-86608E3228BF}|ContractMonthlyClaimSystem.csproj|c:\\users\\lab_services_student\\desktop\\prog2b\\contractmonthlyclaimsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{75B866A9-49F4-43C1-A6B0-86608E3228BF}|ContractMonthlyClaimSystem.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,16 +23,8 @@
       "RelativeMoniker": "D:0:0:{75B866A9-49F4-43C1-A6B0-86608E3228BF}|ContractMonthlyClaimSystem.csproj|solutionrelative:models\\lecturermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75B866A9-49F4-43C1-A6B0-86608E3228BF}|ContractMonthlyClaimSystem.csproj|c:\\users\\lab_services_student\\desktop\\prog2b\\contractmonthlyclaimsystem\\views\\home\\lecturersubmitclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{75B866A9-49F4-43C1-A6B0-86608E3228BF}|ContractMonthlyClaimSystem.csproj|solutionrelative:views\\home\\lecturersubmitclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{75B866A9-49F4-43C1-A6B0-86608E3228BF}|ContractMonthlyClaimSystem.csproj|c:\\users\\lab_services_student\\desktop\\prog2b\\contractmonthlyclaimsystem\\views\\home\\lecturerclaimhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{75B866A9-49F4-43C1-A6B0-86608E3228BF}|ContractMonthlyClaimSystem.csproj|solutionrelative:views\\home\\lecturerclaimhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75B866A9-49F4-43C1-A6B0-86608E3228BF}|ContractMonthlyClaimSystem.csproj|c:\\users\\lab_services_student\\desktop\\prog2b\\contractmonthlyclaimsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75B866A9-49F4-43C1-A6B0-86608E3228BF}|ContractMonthlyClaimSystem.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75B866A9-49F4-43C1-A6B0-86608E3228BF}|ContractMonthlyClaimSystem.csproj|c:\\users\\lab_services_student\\desktop\\prog2b\\contractmonthlyclaimsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -59,12 +59,11 @@
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-10-17T02:15:05.072Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -73,21 +72,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-17T01:54:21.372Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LecturerMenu.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\Views\\Home\\LecturerMenu.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\LecturerMenu.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\Views\\Home\\LecturerMenu.cshtml*",
-              "RelativeToolTip": "Views\\Home\\LecturerMenu.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T19:16:38.764Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -95,20 +80,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "LecturerMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\Views\\Home\\LecturerMenu.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\LecturerMenu.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\Views\\Home\\LecturerMenu.cshtml",
+              "RelativeToolTip": "Views\\Home\\LecturerMenu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T19:16:38.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "LecturerSubmitClaim.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\Views\\Home\\LecturerSubmitClaim.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\LecturerSubmitClaim.cshtml",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\Views\\Home\\LecturerSubmitClaim.cshtml",
               "RelativeToolTip": "Views\\Home\\LecturerSubmitClaim.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T01:41:36.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T01:41:36.555Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "LecturerModel.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\Models\\LecturerModel.cs",
               "RelativeDocumentMoniker": "Models\\LecturerModel.cs",
@@ -116,12 +113,11 @@
               "RelativeToolTip": "Models\\LecturerModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T09:28:13.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T09:28:13.172Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LecturerClaimHistory.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\Views\\Home\\LecturerClaimHistory.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\LecturerClaimHistory.cshtml",
@@ -129,21 +125,19 @@
               "RelativeToolTip": "Views\\Home\\LecturerClaimHistory.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T01:46:53.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T01:46:53.188Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAADoAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T02:49:39.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T02:49:39.359Z"
             },
             {
               "$type": "Document",
@@ -155,8 +149,7 @@
               "RelativeToolTip": "Views\\Home\\AdminViewClaims.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T02:54:48.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T02:54:48.098Z"
             },
             {
               "$type": "Document",

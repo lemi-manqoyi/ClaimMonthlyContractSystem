@@ -43,6 +43,7 @@ body {
 
 label{
     color:white;
+    margin: 0px 10px;
 }
 /*lecture button layout design*/
 #lecturerBtnLayout{
@@ -50,7 +51,17 @@ label{
     align-content:center;
     text-align:center;
 }
-.btnLecturerLogin {
+
+.form-element{
+    margin:10px 0px 10px;
+    border: 1px solid;
+    border-color: hotpink;
+    width:fit-content;
+    font-size:23px;
+}
+
+
+.btnLecturer {
     background-color: lightpink;
     color: black;
     padding: 14px 25px;
@@ -66,7 +77,14 @@ label{
 #lblWelcomeMsg{
     color:white;
 }
-
+#btnSubmit {
+    background-color: lightpink;
+    color: black;
+    padding: 14px 25px;
+    border: solid;
+    border-color: hotpink;
+    border-radius: 10px;
+}
 
 /*admin button layout design*/
 #adminBtnLayout {

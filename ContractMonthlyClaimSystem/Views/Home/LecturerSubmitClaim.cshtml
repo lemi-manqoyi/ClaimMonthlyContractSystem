@@ -3,26 +3,38 @@
 @using (Html.BeginForm("Upload", "Home", FormMethod.Post,
 new { enctype = "multipart/form-data" }))
 {
-    <label for="lecturerName"> Lecturer Name</label>
-    <input type="text" name="lecturerName" required />
-    <br />
-    
-    <label for="lecturerHourlyRate"> Hourly Rate</label>
-    <input type="text" name="lecturerHourlyRate" required />
-    <br />
-    
-    <label for="lecturerAdditionalNotes"> Hours Worked</label>
-    <input type="text" name="lecturerHoursWorked" required />
-    <br />
 
-    <label for="lecturerAdditionalNotes"> Lecturer Additional Notes</label>
-    <input type="text" name="lecturerAdditionalNotes" />
-    <br />
+    <div class="form-element">
+        <label for="lecturerName"> Lecturer Name</label>
+        <input type="text" name="lecturerName" required />
+        <br />
+    </div>
 
-    <input type="file" name="file" />
-    <br />
+    <div class="form-element">
+        <label for="lecturerHourlyRate"> Hourly Rate</label>
+        <input type="text" name="lecturerHourlyRate" required />
+        <br />
+    </div>
 
-    <input type="submit" value="Upload" />
+    <div class="form-element">
+        <label for="lecturerAdditionalNotes"> Hours Worked</label>
+        <input type="text" name="lecturerHoursWorked" required />
+        <br />
+    </div>
+
+    <div class="form-element">
+        <label for="lecturerAdditionalNotes"> Lecturer Additional Notes</label>
+        <input type="text" name="lecturerAdditionalNotes" />
+        <br />
+    </div>
+
+    <div class="form-element">
+        <input type="file" name="file" />
+        <br />
+    </div>
+
+
+    <input type="submit" id="btnSubmit" value="Upload" />
 
 }
 <header>

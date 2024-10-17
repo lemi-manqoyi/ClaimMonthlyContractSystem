@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div id="mainLayout">
+    <br />
+    <br />
+    <br />
+    <h1 class="align-content-center">Welcome To Contract Monthly Claim System</h1><br />
+    <h3>A system you can trust, the future of payroll</h3><br /><br />
+    <img src="~/Imgs/clipboard.png" class="img-fluid" width="100" height="150"/><br />
+   
+</div >
+<div class="d-flex justify-content-evenly">
+    <div id="lecturerBtnLayout">
+        <h5>Lecturer Login</h5> <br />
+        <!-- currently routing the login button to the submit claim view, login to be implemented later-->
+        <a href="@Url.Action("LecturerSubmitClaim", "Home")" class="btnLecturerLogin">Login</a>
+    </div>
+
+    <div id="adminBtnLayout">
+        <h5>Admin Login</h5> <br />
+        <a href="@Url.Action("AdminViewClaims", "Home")" class="btnAdminLogin">Login</a>
+    </div>
+</div>
+

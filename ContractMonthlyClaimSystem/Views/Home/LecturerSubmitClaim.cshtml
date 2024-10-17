@@ -1,7 +1,61 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model List<ContractMonthlyClaimSystem.Models.LecturerModel>
 
-<h1>Admin VIew Claims</h1>
+@using (Html.BeginForm("Upload", "Home", FormMethod.Post,
+new { enctype = "multipart/form-data" }))
+{
+    <label for="lecturerName"> Lecturer Name</label>
+    <input type="text" name="lecturerName" required />
+    <br />
+    
+    <label for="lecturerHourlyRate"> Hourly Rate</label>
+    <input type="text" name="lecturerHourlyRate" required />
+    <br />
+    
+    <label for="lecturerAdditionalNotes"> Hours Worked</label>
+    <input type="text" name="lecturerHoursWorked" required />
+    <br />
+
+    <label for="lecturerAdditionalNotes"> Lecturer Additional Notes</label>
+    <input type="text" name="lecturerAdditionalNotes" />
+    <br />
+
+    <input type="file" name="file" />
+    <br />
+
+    <input type="submit" value="Upload" />
+
+}
+<header>
+
+</header>
+
+<body>
+    <div>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Hourly Rate</th>
+                <th>Hours Worked</th>
+                <th>Additional Notes</th>
+                <th>File Name</th>
+                <th>File Upload Date</th>
+                <th>Actions</th>
+            </tr>
+            @foreach(var claim in Model)
+            {
+                <tr>
+                    <td>@claim.LecturerName</td>
+                    <td>@claim.LecturerHourlyRate</td>
+                    <td>@claim.LecturerHoursWorked</td>
+                    <td>@claim.LecturerAdditionalNotes</td>
+                    <td>@claim.LecturerUploadFileName</td>
+                    <td>@claim.LecturerUploadDate</td>
+                    <td>
+                        <a href="@Url.Action("OpenFile", "Home", new {fileName = claim.LecturerUploadFileName})" target="_blank">Open</a>
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oNxKgIjbwZtQLdCdNo1eTIx7yD5Ol8UdMUOzMz+wnlI=",
+  "Hash": "PSvUX/U+Lfyi1tMf7rYO1yOEdYFNolGZ09tX80S02g0=",
   "Source": "ContractMonthlyClaimSystem",
   "BasePath": "_content/ContractMonthlyClaimSystem",
   "Mode": "Default",
@@ -1271,6 +1271,25 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\agri_landing.jpg"
     },
     {
+      "Identity": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\wwwroot\\Uploads\\agriconnect_icon.jpg",
+      "SourceId": "ContractMonthlyClaimSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\wwwroot\\",
+      "BasePath": "_content/ContractMonthlyClaimSystem",
+      "RelativePath": "Uploads/agriconnect_icon.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\agriconnect_icon.jpg"
+    },
+    {
       "Identity": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\wwwroot\\Uploads\\apple.png",
       "SourceId": "ContractMonthlyClaimSystem",
       "SourceType": "Discovered",
@@ -1328,6 +1347,25 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\c976cf45-036b-4987-a608-93dcf1c7a03d.jpg"
     },
     {
+      "Identity": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\wwwroot\\Uploads\\clipboard.png",
+      "SourceId": "ContractMonthlyClaimSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\wwwroot\\",
+      "BasePath": "_content/ContractMonthlyClaimSystem",
+      "RelativePath": "Uploads/clipboard.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\clipboard.png"
+    },
+    {
       "Identity": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\wwwroot\\Uploads\\deadmuniciPAL.png",
       "SourceId": "ContractMonthlyClaimSystem",
       "SourceType": "Discovered",
@@ -1345,6 +1383,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\deadmuniciPAL.png"
+    },
+    {
+      "Identity": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\wwwroot\\Uploads\\deadpool.jpg",
+      "SourceId": "ContractMonthlyClaimSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\wwwroot\\",
+      "BasePath": "_content/ContractMonthlyClaimSystem",
+      "RelativePath": "Uploads/deadpool.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\deadpool.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\wwwroot\\Uploads\\deadpool2.jpg",
+      "SourceId": "ContractMonthlyClaimSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\wwwroot\\",
+      "BasePath": "_content/ContractMonthlyClaimSystem",
+      "RelativePath": "Uploads/deadpool2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\deadpool2.jpg"
     }
   ]
 }

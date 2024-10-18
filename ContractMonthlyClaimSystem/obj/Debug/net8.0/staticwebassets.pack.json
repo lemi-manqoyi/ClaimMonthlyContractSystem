@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\Uploads\\agri_landing.jpg"
     },
     {
+      "Id": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\wwwroot\\Uploads\\agriconnect_icon.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\agriconnect_icon.jpg"
+    },
+    {
       "Id": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\wwwroot\\Uploads\\apple.png",
       "PackagePath": "staticwebassets\\Uploads\\apple.png"
     },
@@ -33,8 +37,20 @@
       "PackagePath": "staticwebassets\\Uploads\\c976cf45-036b-4987-a608-93dcf1c7a03d.jpg"
     },
     {
+      "Id": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\wwwroot\\Uploads\\clipboard.png",
+      "PackagePath": "staticwebassets\\Uploads\\clipboard.png"
+    },
+    {
       "Id": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\wwwroot\\Uploads\\deadmuniciPAL.png",
       "PackagePath": "staticwebassets\\Uploads\\deadmuniciPAL.png"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\wwwroot\\Uploads\\deadpool.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\deadpool.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\wwwroot\\Uploads\\deadpool2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\deadpool2.jpg"
     },
     {
       "Id": "C:\\Users\\lab_services_student\\Desktop\\PROG2B\\ContractMonthlyClaimSystem\\wwwroot\\css\\site.css",

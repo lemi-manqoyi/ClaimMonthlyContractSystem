@@ -18,7 +18,10 @@ html {
   position: relative;
   min-height: 100%;
 }
-
+#mainContent {
+    display: table;
+    align-content: center;
+}
 /*the header layout decoration or design*/
 head{
     color: aliceblue;
@@ -27,20 +30,20 @@ head{
 
 /*the body layout decoration or design*/
 body {
-    display:block;
-    align-content:center;
-    color:white;
+    color: white;
     background-color: black;
-    border: 2px ridge;
+    border: 2px groove;
     border-color: lightcoral;
-    height:fit-content;
-    width:fit-content;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    vertical-align:middle;
+    margin-top:150px;
 }
 
 #navBar{
     display: box;
     align-content: center;
-
 }
 
 #navBarContent{
@@ -124,3 +127,39 @@ label{
     color: white;
     margin: 0px 0px 20px;
 }
+
+/*setting the custom table view*/
+
+.table-custom td, .table-custom th {
+    padding: 15px; /* Adjust as needed */
+}
+
+.table-custom {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; 
+    border: 2px solid;
+    border-color: hotpink;
+    
+        border-radius: 10px;
+}
+
+    .table-custom th {
+        background-color: lightpink;
+        color: black;
+    }
+
+    .table-custom tbody tr:nth-child(even) {
+        background-color: black;
+        color: white;
+        border: 2px solid;
+        border-color: hotpink;
+        
+    }
+
+    .table-custom tbody tr:hover {
+        background-color: darkorchid; /* Light grey on hover */
+        color: white;
+        border: solid 2px;
+        border-color:black;
+    }
+   

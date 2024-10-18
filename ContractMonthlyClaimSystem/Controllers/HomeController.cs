@@ -48,6 +48,7 @@ namespace ContractMonthlyClaimSystem.Controllers
                     LecturerHourlyRate = hourlyRate,
                     LecturerHoursWorked = hoursWorked,
                     LecturerUploadDate = DateTime.Now,
+                    
                 });
 
             }
@@ -97,7 +98,7 @@ namespace ContractMonthlyClaimSystem.Controllers
         public IActionResult ReviewClaims(string password, int claimId, bool approve)
         {
             // Password to be changed every month, and only given to administrator.
-            const string correctPassword = "#$3t@Dm!Np@SS*"; 
+            const string correctPassword = "password"; 
 
             // basic password check to kyk if the password is ngca or not.
             if (password != correctPassword)
@@ -112,7 +113,7 @@ namespace ContractMonthlyClaimSystem.Controllers
 
             if (claim != null)
             {
-                // setting the ReviewedClaims based on the approval of admin
+                // setting the ReviewedClaim status based on the review of admin
                 claim.ReviewedClaimStatus = approve; 
             }
             

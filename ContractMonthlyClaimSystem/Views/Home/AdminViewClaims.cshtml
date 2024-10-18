@@ -2,10 +2,13 @@
 
 <h2>Review Claims</h2>
 
-<table>
+<table class="table-custom">
     <thead>
         <tr>
             <th>Lecturer Name</th>
+            <th>Hourly Rate</th>
+            <th>Hours Worked</th>
+            <th>Additional Notes</th>
             <th>Upload File Name</th>
             <th>Approved</th>
             <th>Action</th>
@@ -16,6 +19,9 @@
         {
             <tr>
                 <td>@claim.LecturerName</td>
+                <td>@claim.LecturerHourlyRate</td>
+                <td>@claim.LecturerHoursWorked</td>
+                <td>@claim.LecturerAdditionalNotes</td>
                 <td>@claim.LecturerUploadFileName</td>
                 <td>@claim.ReviewedClaimStatus</td>
                 <td>

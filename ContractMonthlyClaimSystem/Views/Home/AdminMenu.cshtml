@@ -1,5 +1,23 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿<head>
+
+</head>
+<body id="lecturerMenuBody">
+    <div id="mainLayout">
+        <br />
+        <h1 id="lblWelcomeMsg" class="align-content-center">Academic Managers  Menu</h1><br />
+        <h3 id="lblWelcomeMsg">Start Your Claim Review Process</h3><br /><br />
+
+    </div>
+    <div id="btnLayout" class="d-flex justify-content-evenly">
+        <div id="submitClaimBtnLayout">
+            <!-- currently routing the login button to the reviewClaim from AdminViewClaims, login to be implemented later-->
+            <a href="@Url.Action("AdminViewClaims", "Home")" class="btnAdmin">Review Claims</a>
+        </div>
+
+        <div id="BacktoHomeBtnLayout">
+            <!-- currently routing the login button to the reviewClaim from AdminViewClaims, login to be implemented later-->
+            <a href="@Url.Action("Index", "Home")" class="btnAdmin">Back-To-Home</a>
+        </div>
+
+    </div>
+</body>

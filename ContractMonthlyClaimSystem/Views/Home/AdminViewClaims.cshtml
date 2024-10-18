@@ -1,42 +1,43 @@
 ﻿@model List<ContractMonthlyClaimSystem.Models.LecturerModel>
 
-@using(Html.BeginForm("ApproveClaims", "Home", FormMethod.Get,
-new { enctype = "multiple/form-data" }))
-{
-    
+<h2>Review Claims</h2>
 
-
-
-}
-
-<h1>Admin View Claims</h1>
-<div>
-    <table>
+<table>
+    <thead>
         <tr>
-            <th>
             <th>Lecturer Name</th>
-            <th>Hourly Rate</th>
-            <th>Hours Worked</th>
-            <th>Additional Notes</th>
-            <th>File Name</th>
-            <th>File Upload Date</th>
-            <th>Actions</th>
-            <th>Review</th>
+            <th>Upload File Name</th>
+            <th>Approved</th>
+            <th>Action</th>
         </tr>
-        @foreach(var claim in Model)
+    </thead>
+    <tbody>
+        @foreach (var claim in Model)
         {
             <tr>
                 <td>@claim.LecturerName</td>
-                <td>@claim.LecturerHourlyRate</td>
-                <td>@claim.LecturerHoursWorked</td>
-                <td>@claim.LecturerAdditionalNotes</td>
                 <td>@claim.LecturerUploadFileName</td>
-                <td>@claim.LecturerUploadDate</td>
+                <td>@claim.ReviewedClaimStatus</td>
                 <td>
-                    <a href="@Url.Action("OpenFile", "Home", new {fileName = claim.LecturerUploadFileName})" target="_blank">Open</a>
+                    <form asp-action="ReviewClaims" method="post">
+                        <input type="hidden" name="claimId" value="@claim.LecturerClaimID" />
+                        <input type="password" name="password" placeholder="Enter password" required />
+                        <select name="approve">
+                            <option value="true">Approve</option>
+                            <option value="false">Reject</option>
+                        </select>
+                        <button type="submit">Submit</button>
+                    </form>
                 </td>
-                <td> <a href="@Url.Action()"></a></td>
             </tr>
         }
-    </table>
+    </tbody>
+</table>
+<br />
+<br />
+<br />
+
+<div id="BacktoHomeBtnLayout">
+    <!-- currently routing the login button to the reviewClaim from AdminViewClaims, login to be implemented later-->
+    <a href="@Url.Action("AdminMenu", "Home")" class="btnAdmin">Back-To-Menu</a>
 </div>

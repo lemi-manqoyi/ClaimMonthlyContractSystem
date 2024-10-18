@@ -1,5 +1,56 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@model List<ContractMonthlyClaimSystem.Models.LecturerModel>
+
+<h2>Reviewed Claims</h2>
+
+@if (Model == null || !Model.Any())
+{
+    <p>No reviewed claims found.</p>
+}
+else
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Claim ID</th>
+                <th>Lecturer Name</th>
+                <th>File Name</th>
+                <th>Status</th>
+                <th>Additional Notes</th>
+                <th>Hours Worked</th>
+                <th>Hourly Rate</th>
+                <th>Upload Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var claim in Model)
+            {
+                <tr>
+                    <td>@claim.LecturerClaimID</td>
+                    <td>@claim.LecturerName</td>
+                    <td>@claim.LecturerUploadFileName</td>
+                    @if (claim.ReviewedClaimStatus == true )
+                    {
+                        <td>@(claim.ReviewedClaimStatus ? "Approved" : "Rejected")</td>
+                    }
+                    else
+                    {
+                        <td>@claim.notReviewedClaimStatus</td>
+                    }
+                    
+                    <td>@claim.LecturerAdditionalNotes</td>
+                    <td>@claim.LecturerHoursWorked</td>
+                    <td>@claim.LecturerHourlyRate</td>
+                    <td>@claim.LecturerUploadDate.ToShortDateString()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <br />
+    <br />
+    <br />
+    
+    <div id="BacktoHomeBtnLayout">
+        <!-- currently routing the login button to the reviewClaim from AdminViewClaims, login to be implemented later-->
+        <a href="@Url.Action("Index", "Home")" class="btnLecturer">Back-To-Home</a>
+    </div>
 }

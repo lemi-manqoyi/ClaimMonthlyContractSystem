@@ -37,9 +37,9 @@ new { enctype = "multipart/form-data" }))
     <input type="submit" id="btnSubmit" value="Upload" />
 
 }
-<header>
+<head>
 
-</header>
+</head>
 
 <body>
     <div>
@@ -68,6 +68,13 @@ new { enctype = "multipart/form-data" }))
                 </tr>
             }
         </table>
+        <br/>
+        <br/>
+        <br/>
+        <div id="BacktoHomeBtnLayout">
+            <!-- currently routing the login button to the reviewClaim from AdminViewClaims, login to be implemented later-->
+            <a href="@Url.Action("Index", "Home")" class="btnLecturer">Back-To-Home</a>
+        </div>
     </div>
 </body>
 

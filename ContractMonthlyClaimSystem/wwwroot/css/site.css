@@ -20,13 +20,16 @@ html {
 }
 
 /*the header layout decoration or design*/
-header {
+head{
     color: aliceblue;
     justify-content: center;
 }
 
 /*the body layout decoration or design*/
 body {
+    display:block;
+    align-content:center;
+    color:white;
     background-color: black;
     border: 2px ridge;
     border-color: lightcoral;

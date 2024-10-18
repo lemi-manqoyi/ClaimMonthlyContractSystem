@@ -21,7 +21,12 @@
         </div>
 
         <div id="claimHistoryBtnLayout">
-            <a href="@Url.Action("LecturerClaimHistory", "Home")" class="btnAdminLogin">View Claims</a>
+            <a href="@Url.Action("LecturerClaimHistory", "Home")" class="btnLecturer">View Claims</a>
+        </div>
+
+        <div id="BacktoHomeBtnLayout">
+            <!-- currently routing the login button to the reviewClaim from AdminViewClaims, login to be implemented later-->
+            <a href="@Url.Action("Index", "Home")" class="btnLecturer">Back-To-Home</a>
         </div>
     </div>
 </body>

@@ -78,13 +78,48 @@ namespace ContractMonthlyClaimSystem.Controllers
 
         public IActionResult AdminViewClaims() 
         {
-             return View();
+             return View(claims);
+        } 
+        
+        public IActionResult LecturerClaimHistory() 
+        {
+             return View(claims);
         }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        [HttpPost]
+        public IActionResult ReviewClaims(string password, int claimId, bool approve)
+        {
+            // Password to be changed every month, and only given to administrator.
+            const string correctPassword = "#$3t@Dm!Np@SS*"; 
+
+            // basic password check to kyk if the password is ngca or not.
+            if (password != correctPassword)
+            {   
+                // Return the claims view with an error message
+                ModelState.AddModelError(string.Empty, "Invalid password. \n Please try typing Slower.");
+                return View(claims); 
+            }
+
+            //finding the claim by ID
+            var claim = claims.FirstOrDefault(c => c.LecturerClaimID == claimId);
+
+            if (claim != null)
+            {
+                // setting the ReviewedClaims based on the approval of admin
+                claim.ReviewedClaimStatus = approve; 
+            }
+            
+            // sending it back to the to view claims after approval
+            return RedirectToAction("AdminViewClaims");
+        }
+
+        } 
     }
-}
+    

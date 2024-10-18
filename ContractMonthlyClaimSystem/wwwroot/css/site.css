@@ -21,15 +21,28 @@ html {
 
 /*the header layout decoration or design*/
 header {
-    background-color: black;
+    color: aliceblue;
+    justify-content: center;
 }
 
 /*the body layout decoration or design*/
 body {
     background-color: black;
-    border: 1px ridge;
-    border-color: greenyellow;
-    height:800px;
+    border: 2px ridge;
+    border-color: lightcoral;
+    height:fit-content;
+    width:fit-content;
+}
+
+#navBar{
+    display: box;
+    align-content: center;
+
+}
+
+#navBarContent{
+    display: flex;
+    color:antiquewhite;
 }
 
 /*the main layout decoration or design*/
@@ -64,7 +77,8 @@ label{
 .btnLecturer {
     background-color: lightpink;
     color: black;
-    padding: 14px 25px;
+    width: 150px;
+    padding: 14px 45px;
     border: solid;
     border-color: hotpink;
     border-radius: 10px;
@@ -72,6 +86,7 @@ label{
 #lblLecturer{
     color: white;
     margin: 0px 0px 20px;
+    size: 20px;
 }
 
 #lblWelcomeMsg{
@@ -92,14 +107,15 @@ label{
     align-content: center;
     text-align: center;
 }
-.btnAdminLogin {
+.btnAdmin {
     background-color: cornflowerblue;
     color: black;
-    padding: 14px 25px;
+    padding: 14px 45px;
     border: solid;
+    width: 150px;
     border-radius: 10px;
     cursor: pointer;
-    border-color:aqua;
+    border-color: aqua;
 }
 #lblAdmin {
     color: white;

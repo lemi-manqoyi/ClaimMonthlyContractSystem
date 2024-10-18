@@ -19,7 +19,6 @@ namespace ContractMonthlyClaimSystem.Controllers
         }
 
         
-
         //private list to store all the user uploads
         private static List<LecturerModel> claims = new List<LecturerModel>();
 
@@ -42,7 +41,7 @@ namespace ContractMonthlyClaimSystem.Controllers
                 }
                 claims.Add(new LecturerModel
                 {
-                    LecturerID = claims.Count +1,
+                    LecturerClaimID = claims.Count +1,
                     LecturerUploadFileName = fileName,
                     LecturerAdditionalNotes = addNotes,
                     LecturerName = lecturerName,
@@ -63,16 +62,7 @@ namespace ContractMonthlyClaimSystem.Controllers
             return File(fileBytes, "application/octet-stream", fileName);
         }
         public IActionResult LecturerSubmitClaim()
-        { claims.Add(new LecturerModel
-                {
-                    LecturerID = claims.Count +1,
-                    LecturerUploadFileName = fileName,
-                    LecturerAdditionalNotes = addNotes,
-                    LecturerName = lecturerName,
-                    LecturerHourlyRate = hourlyRate,
-                    LecturerHoursWorked = hoursWorked,
-                    LecturerUploadDate = DateTime.Now,
-                });
+        { 
             return View(claims);
         }
         

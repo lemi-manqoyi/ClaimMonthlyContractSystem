@@ -1,7 +1,42 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@model List<ContractMonthlyClaimSystem.Models.LecturerModel>
+
+@using(Html.BeginForm("ApproveClaims", "Home", FormMethod.Get,
+new { enctype = "multiple/form-data" }))
+{
+    
+
+
+
 }
 
-<h1>Admin VIew Claims</h1>
+<h1>Admin View Claims</h1>
+<div>
+    <table>
+        <tr>
+            <th>
+            <th>Lecturer Name</th>
+            <th>Hourly Rate</th>
+            <th>Hours Worked</th>
+            <th>Additional Notes</th>
+            <th>File Name</th>
+            <th>File Upload Date</th>
+            <th>Actions</th>
+            <th>Review</th>
+        </tr>
+        @foreach(var claim in Model)
+        {
+            <tr>
+                <td>@claim.LecturerName</td>
+                <td>@claim.LecturerHourlyRate</td>
+                <td>@claim.LecturerHoursWorked</td>
+                <td>@claim.LecturerAdditionalNotes</td>
+                <td>@claim.LecturerUploadFileName</td>
+                <td>@claim.LecturerUploadDate</td>
+                <td>
+                    <a href="@Url.Action("OpenFile", "Home", new {fileName = claim.LecturerUploadFileName})" target="_blank">Open</a>
+                </td>
+                <td> <a href="@Url.Action()"></a></td>
+            </tr>
+        }
+    </table>
+</div>

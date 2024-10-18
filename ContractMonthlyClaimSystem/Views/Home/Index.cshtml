@@ -8,20 +8,20 @@
     <div id="mainLayout">
         <br />
         <h1 id="lblWelcomeMsg" class="align-content-center">Welcome To Contract Monthly Claim System</h1><br />
-        <h3 id="lblWelcomeM">A system you can trust, the future of payroll</h3><br /><br />
+        <h3 id="lblWelcomeMsg">A system you can trust, the future of payroll</h3><br /><br />
         <img src="~/Imgs/clipboard.png" class="img-fluid" width="100" height="150" /><br />
 
     </div>
     <div id="btnLayout" class="d-flex justify-content-evenly">
         <div id="lecturerBtnLayout">
-            <label id ="lblLecturer">Lecturer Login</label> <br />
+            <h5 id ="lblLecturer">Lecturer Login</h5> <br />
             <!-- currently routing the login button to the submit claim view, login to be implemented later-->
             <a href="@Url.Action("LecturerMenu", "Home")" class="btnLecturer">Login</a>
         </div>
 
         <div id="adminBtnLayout">
-            <label id ="lblAdmin">Admin Login</label> <br />
-            <a href="@Url.Action("AdminMenu", "Home")" class="btnAdminLogin">Login</a>
+            <h5 id ="lblAdmin">Admin Login</h5> <br />
+            <a href="@Url.Action("AdminMenu", "Home")" class="btnAdmin">Login</a>
         </div>
     </div>
 </body>

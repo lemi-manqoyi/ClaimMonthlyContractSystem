@@ -8,7 +8,9 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\Uploads\" />
-    <Folder Include="Views\Lecturer\" />
+  
+    <!--  <Folder Include="Views\Lecturer\" />
+    <Folder Include="Views\Admin\" />-->
   </ItemGroup>
 
 </Project>

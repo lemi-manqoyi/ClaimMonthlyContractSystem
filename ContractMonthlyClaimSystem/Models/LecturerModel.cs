@@ -3,7 +3,7 @@
     public class LecturerModel
     {
 
-        public int LecturerID { get; set; }
+        public int LecturerClaimID { get; set; }
 
         public string LecturerName { get; set; }  required
         public string LecturerUploadFileName { get; set; }  required
